@@ -4,7 +4,6 @@ import NavBar from "../components/navbar";
 const AboutPage = () => {
   return (
     <React.Fragment>
-      <h3>PresentAIble</h3>
       <NavBar></NavBar>
       <h3>A platform for your presentation needs</h3>
       <h4>Features</h4>

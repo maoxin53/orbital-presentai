@@ -4,7 +4,6 @@ import NavBar from "../components/navbar";
 const SignupPage = () => {
   return (
     <React.Fragment>
-      <h3>PresentAIble</h3>
       <NavBar></NavBar>
       <h4>Join us as a student or tutor</h4>
       <ul>

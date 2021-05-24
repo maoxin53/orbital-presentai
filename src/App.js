@@ -20,7 +20,9 @@ class App extends Component {
     return (
       <Router>
         {/* future routes here*/}
-        <Route exact path="/" component={MainPage} />
+        <span>
+          <Route exact path="/" component={MainPage} />
+        </span>
         <Route exact path="/about" component={AboutPage}></Route>
         <Route exact path="/dashboard" component={DashboardPage}></Route>
         <Route exact path="/signup" component={SignupPage}></Route>

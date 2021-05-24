@@ -6,7 +6,6 @@ class DashBoardPage extends Component {
   render() {
     return (
       <React.Fragment>
-        <h3>PresentAIble</h3>
         <NavBar></NavBar>
         <h3>Dash Board</h3>
         <h5>My Submissions</h5>
