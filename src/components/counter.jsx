@@ -46,7 +46,7 @@ class Counter extends Component {
       <React.Fragment>
         <div>
           {this.props.children}
-          <span style={{ fontSize: 30 }} className={this.getBadgeClasses()}>
+          <span className={this.getBadgeClasses()} style={{ fontSize: 30 }}>
             {this.formatCount()}
           </span>
           <button
@@ -68,7 +68,7 @@ class Counter extends Component {
   }
 
   getBadgeClasses() {
-    let classes = "badge m-2 badge-";
+    let classes = "badge m-2 bg-";
     classes += this.props.counter.value === 0 ? "warning" : "primary";
     return classes;
   }

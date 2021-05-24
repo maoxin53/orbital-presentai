@@ -7,10 +7,7 @@ const NavBar = ({ totalCounters }) => {
     <nav className="navbar navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <Link to="/">Main{"  "}</Link>
-          <Link to="/about">About us{"  "}</Link>
-          <Link to="/dashboard">Dashboard{"  "}</Link>
-          <Link to="/signup">Sign Up{"  "}</Link>
+          <h3>Navbar</h3>
           <span className="badge badge-pill badge-secondary">
             {totalCounters}
           </span>
@@ -21,3 +18,8 @@ const NavBar = ({ totalCounters }) => {
 };
 
 export default NavBar;
+
+/*<Link to="/">Main{"  "}</Link>
+          <Link to="/about">About us{"  "}</Link>
+          <Link to="/dashboard">Dashboard{"  "}</Link>
+          <Link to="/signup">Sign Up{"  "}</Link>*/
